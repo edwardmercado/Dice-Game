@@ -34,4 +34,4 @@ function rollDiceRandomPlayer2(){
     return random;
 }
 
-main();
+document.querySelector("button").addEventListener("click", main);
